@@ -1,0 +1,93 @@
+
+.bg-color{
+    background-color: #FFF2CC;
+}
+
+.header{
+    background-color: #B5739D;
+    color: #FFF2CC;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25Spx;
+    padding: 0 20%;
+    margin: -7px;
+}
+
+.header > h1{
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.header > img{
+    width: 80px;
+}
+
+.menu{
+    border-bottom: 5px double #5B968C;
+    border-top: 5px double #5B968C;
+    border-right: hidden;
+    border-left: hidden;
+    margin: 10px 0 0 0;
+}
+
+.menu > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.7rem;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.menu > ul > li > a{
+    color: #EA6B66;
+    text-decoration: none;
+}
+
+.articulo{
+    background-color: #D5E8D4;
+    margin: 30px 40px;
+    padding: 5px 5px;
+    width: 65%;
+}
+
+.articulo > h5{
+    color: #67AB9F;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.articulo > h2{
+    color: #B5739D;
+    font-family: 'Architects Daughter', cursive;;
+    font-size: 40px;
+    text-align: center;  
+    margin: 10px;
+}
+
+.articulo > p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+}
+
+.pizzeta{
+    margin: 20px;
+    float: right;
+    width: 300px;
+}
+
+.pie-de-imagen{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #B5739D;
+    text-align: right;
+}
