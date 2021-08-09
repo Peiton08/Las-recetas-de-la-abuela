@@ -1,31 +1,40 @@
 
+/* -------------------------------background-------------------------------- */
 .bg-color{
-    background-color: #FFF2CC;
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
+/*--------------------------- background------------------------------------- */
 
+/*------------------------------ header---------------------------------------- */
 .header{
-    background-color: #B5739D;
-    color: #FFF2CC;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 25Spx;
-    padding: 0 20%;
+    color: #A63F03;
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
     margin: -7px;
 }
 
 .header > h1{
     display: inline-block;
-    margin-left: 70px;
-    margin-right: 70px;
-    text-align: center;
+    text-align: left;
+    margin-left: 25px;
 }
 
 .header > img{
-    width: 80px;
+    width: 130px;
+    float: left;
+    margin-left: 30px;
+    
 }
+/*----------------------------------header------------------------------ */
 
+/*----------------------------------menu--------------------------------*/
 .menu{
-    border-bottom: 5px double #5B968C;
-    border-top: 5px double #5B968C;
+    border-bottom: 5px double #3F6F8C;
+    border-top: 5px double #3F6F8C;
     border-right: hidden;
     border-left: hidden;
     margin: 10px 0 0 0;
@@ -35,27 +44,29 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 1.7rem;
+    font-family: 'Josefin Slab', serif;
+    font-size: 2.5em;
     padding: 0;
     margin: 10px 0 0 0;
 }
 
 .menu > ul > li > a{
-    color: #EA6B66;
+    color: #A63F03;
     text-decoration: none;
 }
+/*-----------------------------------------menu--------------------------------*/
 
+/*-----------------------------------articulo---------------------------------*/
 .articulo{
-    background-color: #D5E8D4;
+    background-color: #f2a922;
     margin: 30px 40px;
-    padding: 5px 5px;
+    padding: 5px 5px 30px;
     width: 65%;
 }
 
 .articulo > h5{
-    color: #67AB9F;
-    font-family: 'Helvetica';
+    color: #54301A;
+    font-family: 'Josefin Slab', serif;
     font-size: 20px;
     font-style: italic;
     padding-left: 0px;
@@ -65,29 +76,28 @@
 }
 
 .articulo > h2{
-    color: #B5739D;
-    font-family: 'Architects Daughter', cursive;;
+    color: #A63F03;
+    font-family: 'Parisienne', cursive;
     font-size: 40px;
     text-align: center;  
     margin: 10px;
 }
 
 .articulo > p{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Josefin Slab', serif;
     font-size: 30px;
     text-align: left;
     margin: 0;
+    color: #54301A;
 }
+/*---------------------------- articulo---------------------------- */
 
+/*--------------------------------imagenes--------------------------- */
 .pizzeta{
     margin: 20px;
     float: right;
     width: 300px;
 }
 
-.pie-de-imagen{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    color: #B5739D;
-    text-align: right;
-}
+/*--------------------------------imagenes--------------------------- */
+
