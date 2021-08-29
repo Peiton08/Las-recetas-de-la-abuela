@@ -20,43 +20,92 @@
 .header > h1{
     display: inline-block;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 34px;
+    font-size: 2.5em;
+    margin-bottom: 15px;
 }
 
 .header > img{
     width: 130px;
     float: left;
     margin-left: 30px;
+    margin-top: 7px;
     
 }
 /*----------------------------------header------------------------------ */
 
 /*----------------------------------menu--------------------------------*/
-.menu{
+/* border */
+#menu{
     border-bottom: 5px double #3F6F8C;
     border-top: 5px double #3F6F8C;
     border-right: hidden;
     border-left: hidden;
-    margin: 10px 0 0 0;
+    margin-top: 5px;
 }
-
-.menu > ul{
+/* menu */
+#menu ul {
     display: flex;
     justify-content: space-around;
-    list-style: none;
+    list-style:none;
+    padding:0;
+    margin: 0;
+}
+  
+/* enlaces del menu */
+#menu ul a {
+    display:block;
+    color: #A63F03;
+    text-decoration:none;
+    font-size: 2.2em;
+    padding:10px;
     font-family: 'Josefin Slab', serif;
-    font-size: 2.5em;
-    padding: 0;
-    margin: 10px 0 0 0;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+   
+/* items del menu */
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
 }
 
-.menu > ul > li > a{
-    color: #A63F03;
-    text-decoration: none;
+/* menu desplegable */
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color: rgb(134, 193, 195);
+    padding:0 60px 0 0;
+    margin: 0;
+   }
+   
+/* items del menu desplegable */
+#menu ul ul li {
+    float:none;
+    width:150px;
+    font-size: 10px;
+}
+/* enlaces de los items del menu desplegable */  
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+   
+/* items del menu desplegable al pasar el ratón */
+   
+#menu ul li:hover > ul {
+    display:block; 
 }
 /*-----------------------------------------menu--------------------------------*/
 
 /*-----------------------------------articulo---------------------------------*/
+.articulo > a{
+    text-decoration: none;
+}
 .articulo{
     background-color: #f2a922;
     margin: 30px 40px;
@@ -64,7 +113,7 @@
     width: 65%;
 }
 
-.articulo > h5{
+.articulo > a > h5{
     color: #54301A;
     font-family: 'Josefin Slab', serif;
     font-size: 20px;
@@ -75,7 +124,7 @@
     margin-bottom: 0;
 }
 
-.articulo > h2{
+.articulo > a > h2{
     color: #A63F03;
     font-family: 'Parisienne', cursive;
     font-size: 40px;
@@ -83,7 +132,7 @@
     margin: 10px;
 }
 
-.articulo > p{
+.articulo > a > p{
     font-family: 'Josefin Slab', serif;
     font-size: 30px;
     text-align: left;
@@ -100,4 +149,4 @@
 }
 
 /*--------------------------------imagenes--------------------------- */
-
+   
