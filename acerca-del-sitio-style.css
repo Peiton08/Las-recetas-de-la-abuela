@@ -1,6 +1,6 @@
 /* -------------------------------background-------------------------------- */
-.bg-color{
-    background-image: url(imagenes/fondo.jpg);
+.bg{
+    background-image: url(imagenes/logos/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

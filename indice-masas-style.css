@@ -1,5 +1,4 @@
-/* -------------------------------background-------------------------------- */
-.bg{
+.bg-color{
     background-image: url(imagenes/logos/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,16 +94,35 @@
 }
 /*-----------------------------------------menu--------------------------------*/
 
-/*-----------------------------------articulo---------------------------------*/
-.card{
+/*-----------------------------------card1---------------------------------*/
+#card1{
+    background-color: #f2a922;
+    margin: 30px 30px;
+    padding: 0;
+    width: 94%;
+    height: 3%;
+}
+
+#card1 h2{
+    color: #A63F03;
+    font-family: 'Parisienne', cursive;
+    font-size: 5em;
+    text-align: center;  
+    margin: 10px;
+}
+/* ----------------------------card2-------------------------------- */
+#card2 a{
+    text-decoration: none;
+}
+#card2{
     background-color: #f2a922;
     margin: 30px 30px;
     padding: 5px 5px 30px 10px;
     width: 850px;
-    height: 480px;
+    height: 390px;
 }
 
-.card h5{
+#card2 h5{
     color: #54301A;
     font-family: 'Josefin Slab', serif;
     font-size: 20px;
@@ -115,24 +133,17 @@
     margin-bottom: 0;
 }
 
-.card h2{
+#card2 h2{
     color: #A63F03;
     font-family: 'Parisienne', cursive;
-    font-size: 3.2em;
+    font-size: 3em;
     text-align: center;  
     margin: 10px;
-}
-
-.card p{
-    font-family: 'Josefin Slab', serif;
-    font-size: 30px;
+    display: inline-block;
     text-align: left;
-    margin: 29px 0 0 0;
-    color: #54301A;
-    padding-left: 13px;
 }
 
-.card #firma{
+#card2 .firma{
     text-align: center;
     font-size: 2em;
     font-weight: bold;
@@ -144,12 +155,169 @@
     margin-left: auto;
     width: 288px;
     height: 68px;
-
 }
-/*---------------------------- articulo---------------------------- */
+/*-----------------------------------card3---------------------------------*/
+#card3 a{
+    text-decoration: none;
+}
+#card3{
+    background-color: #f2a922;
+    margin: 30px 30px;
+    padding: 5px 5px 30px 10px;
+    width: 850px;
+    height: 390px;
+}
+
+#card3 h5{
+    color: #54301A;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+#card3 h2{
+    color: #A63F03;
+    font-family: 'Parisienne', cursive;
+    font-size: 3em;
+    text-align: center;  
+    margin: 10px;
+}
+
+#card3 .firma{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #A63F03;
+    font-family: 'Josefin Slab', serif;
+    margin-right: 29px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 288px;
+    height: 68px;
+}
+/*-----------------------------------card1---------------------------------*/
+#card4 a{
+    text-decoration: none;
+}
+#card4{
+    background-color: #f2a922;
+    margin: 30px 30px;
+    padding: 5px 5px 30px 10px;
+    width: 850px;
+    height: 390px;
+}
+
+#card4 h5{
+    color: #54301A;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+#card4 h2{
+    color: #A63F03;
+    font-family: 'Parisienne', cursive;
+    font-size: 3em;
+    text-align: center;  
+    margin: 10px;
+}
+
+#card4 .firma{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #A63F03;
+    font-family: 'Josefin Slab', serif;
+    margin-right: 29px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 288px;
+    height: 68px;
+}
+/*-----------------------------------card1---------------------------------*/
+#card5 a{
+    text-decoration: none;
+}
+#card5{
+    background-color: #f2a922;
+    margin: 30px 30px;
+    padding: 5px 5px 30px 10px;
+    width: 850px;
+    height: 390px;
+}
+
+#card5 h5{
+    color: #54301A;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+#card5 h2{
+    color: #A63F03;
+    font-family: 'Parisienne', cursive;
+    font-size: 3em;
+    text-align: center;  
+    margin: 10px;
+}
+
+#card5 .firma{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #A63F03;
+    font-family: 'Josefin Slab', serif;
+    margin-right: 29px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 288px;
+    height: 68px;
+}
+/*----------------------------card---------------------------- */
 
 /*--------------------------------imagenes--------------------------- */
+/* #masa1{
+    margin: 20px;
+    float: left;
+    width: 300px;
+    margin-bottom: 9px;
+}
 
+#masa2{
+    margin: 20px;
+    float: left;
+    width: 300px;
+    margin-bottom: 9px;
+} */
+
+#masa3{
+    margin: 20px;
+    float: left;
+    width: 300px;
+    margin-bottom: 9px;
+}
+
+#masa4{
+    margin: 20px;
+    float: left;
+    width: 300px;
+    margin-bottom: 9px;
+}
 /*--------------------------------imagenes--------------------------- */
 /*--------------------------------footer--------------------------- */
 .footer{
