@@ -119,6 +119,14 @@
     margin: 30px 30px;
     padding: 5px 5px 30px 10px;
     width: 850px;
+    height: 400px;
+}
+#card2:last-of-type{
+    background-color: #f2a922;
+    margin: 30px 30px;
+    padding: 5px 5px 30px 10px;
+    width: 850px;
+    height: 300px;
 }
 
 #card2 h5{
@@ -161,12 +169,19 @@
 /*----------------------------card---------------------------- */
 
 /*--------------------------------imagenes--------------------------- */
-#masa{
+#pizza{
+    margin: 20px;
+    float: left;
+    width: 250px;
+    margin-bottom: 9px;
+}
+#pizza1{
     margin: 20px;
     float: left;
     width: 300px;
     margin-bottom: 9px;
 }
+
 /*--------------------------------imagenes--------------------------- */
 /*--------------------------------footer--------------------------- */
 .footer{

@@ -156,15 +156,42 @@
     width: 288px;
     height: 68px;
 }
-/*-----------------------------------card3---------------------------------*/
+
+.card3{
+    height: 370px;
+}
 
 /*----------------------------card---------------------------- */
 
 /*--------------------------------imagenes--------------------------- */
-#masa{
+#pizza1{
+    margin: 20px;
+    float: left;
+    width: 250px;
+    margin-bottom: 9px;
+}
+#pizza2{
     margin: 20px;
     float: left;
     width: 300px;
+    margin-bottom: 9px;
+}
+#pizza3{
+    margin: 20px;
+    float: left;
+    width: 250px;
+    margin-bottom: 9px;
+}
+#pizza4{
+    margin: 20px;
+    float: left;
+    width: 300px;
+    margin-bottom: 9px;
+}
+#pizza5{
+    margin: 20px;
+    float: left;
+    width: 350px;
     margin-bottom: 9px;
 }
 /*--------------------------------imagenes--------------------------- */
