@@ -196,8 +196,13 @@
     color: #54301A;
 }
 #card5 ul li a{
-    text-decoration: none;
     color: #54301A;
+}
+#card5 p a{
+    color: #54301A;
+}
+#card5 a:hover {
+    color: #A63F03;
 }
 /*----------------------------card---------------------------- */
 
