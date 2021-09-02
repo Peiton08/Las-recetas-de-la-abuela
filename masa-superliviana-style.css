@@ -1,4 +1,4 @@
-.bg-color{
+.bg{
     background-image: url(imagenes/logos/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,88 +111,105 @@
     margin: 10px;
 }
 /* ----------------------------card2-------------------------------- */
-#card2 a{
-    text-decoration: none;
-}
 #card2{
     background-color: #f2a922;
-    margin: 30px 30px;
-    padding: 5px 5px 30px 10px;
-    width: 850px;
-    height: 344px;
+    width: 20%;
+    text-align: justify;
+    float: right;
+    margin-right: 80px;
+    border-radius: 2%;
+    padding: 10px;
+    padding-bottom: 5px;
 }
-
-#card2 h5{
+#card2 h2{
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #A63F03;
+    text-align: center;
+    font-weight: bold;
+}
+#card2 p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.2em;
+    margin-top: 0;
+    color: #54301A;
+    font-weight: bold;
+}
+/* ----------------------------card3-------------------------------- */
+#card3{
+    background-color: #f2a922;
+    margin: 30px 30px;
+    padding: 5px 5px 10px 10px;
+    width: 850px;
+}
+#card3 h3{
     color: #54301A;
     font-family: 'Josefin Slab', serif;
     font-size: 20px;
     font-style: italic;
-    padding-left: 0px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-bottom: 0;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
 }
 
-#card2 h2{
+#card3 h2{
     color: #A63F03;
     font-family: 'Parisienne', cursive;
     font-size: 3em;
-    text-align: center;  
-    margin-top: 10%;
-    display: inline-block;
-    text-align: left;
-    margin-left: 3%;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
-#card2 .firma{
-    text-align: center;
-    font-size: 2em;
-    font-weight: bold;
-    color: #A63F03;
+#card3 ul li{
+    color: #54301A;
     font-family: 'Josefin Slab', serif;
-    margin-right: -3%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    width: 288px;
-    height: 68px;
+    font-size: 1.5em;
+    margin-top: 0;
+    padding-top: 0;
 }
-/*-----------------------------------card3---------------------------------*/
+/*----------------------------card4---------------------------- */
+.card4{
+    margin-top: -330px;
+}
+/*----------------------------card5---------------------------- */
+#card5{
+    background-color: #f2a922;
+    margin: 30px 30px;
+    padding: 10px 10px 10px 10px;
+    width: 850px;
+}
+
+#card5 p{
+    color: #54301A;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    margin: 0;
+}
+#card5 a{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    margin-top: 0;
+    padding-top: 0;
+    color: #54301A;
+    text-decoration: none;
+}
 
 /*----------------------------card---------------------------- */
 
 /*--------------------------------imagenes--------------------------- */
-#pizza{
-    margin: 20px;
-    float: left;
-    width: 300px;
-    margin-bottom: 9px;
+#paso{
+    width: 500px;
+    margin-left: 15%;    
 }
-#pizza1{
-    margin: 20px;
-    float: left;
+#foto{
     width: 200px;
-    margin-bottom: 9px;
+    margin-left: 14%;
+    border-radius: 2%;
+    
 }
-#pizza2{
-    margin: 20px;
-    float: left;
-    width: 350px;
-    margin-bottom: 9px;
-}
-#pizza3{
-    margin: 20px;
-    float: left;
-    width: 230px;
-    margin-bottom: 9px;
-}
-#pizza4{
-    margin: 20px;
-    float: left;
-    width: 220px;
-    margin-bottom: 9px;
-}
-
 
 /*--------------------------------imagenes--------------------------- */
 /*--------------------------------footer--------------------------- */
