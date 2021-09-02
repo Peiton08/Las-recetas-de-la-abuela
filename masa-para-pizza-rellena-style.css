@@ -1,0 +1,258 @@
+.bg{
+    background-image: url(imagenes/logos/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*--------------------------- background------------------------------------- */
+
+/*------------------------------ header---------------------------------------- */
+.header{
+    color: #A63F03;
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+    margin: -7px;
+}
+
+.header > h1{
+    display: inline-block;
+    text-align: left;
+    margin-left: 34px;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.header > img{
+    width: 130px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 7px;
+    
+}
+/*----------------------------------header------------------------------ */
+
+/*----------------------------------menu--------------------------------*/
+
+#menu{
+    border-bottom: 5px double #3F6F8C;
+    border-top: 5px double #3F6F8C;
+    border-right: hidden;
+    border-left: hidden;
+    margin-top: 5px;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style:none;
+    padding:0;
+    margin: 0;
+}
+  
+#menu ul a {
+    display:block;
+    color: #A63F03;
+    text-decoration:none;
+    font-size: 2.2em;
+    padding:10px;
+    font-family: 'Josefin Slab', serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color: rgb(134, 193, 195);
+    padding:0 60px 0 0;
+    margin: 0;
+}
+   
+#menu ul ul li {
+    float:none;
+    width:150px;
+    font-size: 10px;
+}
+ 
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+   
+#menu ul li:hover > ul {
+    display:block; 
+}
+/*-----------------------------------------menu--------------------------------*/
+
+/*-----------------------------------card1---------------------------------*/
+#card1{
+    background-color: #f2a922;
+    margin: 30px 30px;
+    padding: 0;
+    width: 94%;
+    height: 3%;
+}
+
+#card1 h2{
+    color: #A63F03;
+    font-family: 'Parisienne', cursive;
+    font-size: 5em;
+    text-align: center;  
+    margin: 10px;
+}
+/* ----------------------------card2-------------------------------- */
+#card2{
+    background-color: #f2a922;
+    width: 20%;
+    text-align: justify;
+    float: right;
+    margin-right: 80px;
+    border-radius: 2%;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+#card2 h2{
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #A63F03;
+    text-align: center;
+    font-weight: bold;
+}
+#card2 p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.2em;
+    margin-top: 0;
+    color: #54301A;
+    font-weight: bold;
+}
+/* ----------------------------card3-------------------------------- */
+#card3{
+    background-color: #f2a922;
+    margin: 30px 30px;
+    padding: 5px 5px 10px 10px;
+    width: 850px;
+}
+#card3 h3{
+    color: #54301A;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#card3 h2{
+    color: #A63F03;
+    font-family: 'Parisienne', cursive;
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#card3 ul li{
+    color: #54301A;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    margin-top: 0;
+    padding-top: 0;
+}
+/*----------------------------card4---------------------------- */
+.card4{
+    margin-top: -330px;
+}
+/*----------------------------card5---------------------------- */
+#card5{
+    background-color: #f2a922;
+    margin: 30px 30px;
+    padding: 10px 10px 10px 10px;
+    width: 850px;
+}
+
+#card5 p{
+    color: #54301A;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    margin: 0;
+}
+#card5 ul li{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    margin-top: 0;
+    padding-top: 0;
+    color: #54301A;
+}
+#card5 ul li a{
+    text-decoration: none;
+    color: #54301A;
+}
+/*----------------------------card---------------------------- */
+
+/*--------------------------------imagenes--------------------------- */
+#paso{
+    width: 500px;
+    margin-left: 15%;    
+}
+#foto{
+    width: 200px;
+    margin-left: 14%;
+    border-radius: 2%;
+    
+}
+
+/*--------------------------------imagenes--------------------------- */
+/*--------------------------------footer--------------------------- */
+.footer{
+    border-top: 5px double #3F6F8C;
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: hidden;
+    color: #A63F03;
+    
+}
+
+.footer #logo{
+    width: 80px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.footer h2{
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5em;
+    display: inline-block;
+    text-align: left;
+    margin-left: 14px;
+    margin-bottom: 15px;
+}
+
+#logo2{
+    float: right;
+    width: 160px;
+    margin-right: 100px;
+    margin-top: 0px;
+}
+
+.footer p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.7em;
+    font-weight: bolder;
+    text-align: left;
+    margin: 25px 0 25px 30px;
+    width: 500px;
+}
+/*--------------------------------footer--------------------------- */
