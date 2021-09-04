@@ -151,7 +151,13 @@
     padding-bottom: 0;
     margin-bottom: 0;
 }
-
+#card3 ul li a{
+    color: #54301A;
+}
+#card3 ul li a:hover{
+    color: #A63F03;
+    font-weight: bold;
+}
 #card3 ul li{
     color: #54301A;
     font-family: 'Josefin Slab', serif;
@@ -330,9 +336,9 @@
         margin: 2px;
     }
     .header h1{
-        font-size: 2.3em;
+        font-size: 1.7em;
         margin-left: 10px;
-    } 
+    }
     .header img{
         width: 75px;
     }
