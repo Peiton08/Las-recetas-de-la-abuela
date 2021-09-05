@@ -149,12 +149,50 @@
     height: 68px;
 }
 /*---------------------------- articulo---------------------------- */
-
+#card2{
+    background-color: #f2a922;
+    width: 20%;
+    text-align: justify;
+    margin-right: 80px;
+    float: right;
+    border-radius: 2%;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-top: 2.2%;
+}
+#card2 h2{
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #A63F03;
+    text-align: center;
+    font-weight: bold;
+}
+#card2 p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.2em;
+    margin-top: 0;
+    color: #54301A;
+    font-weight: bold;
+}
+#foto{
+    width: 200px;
+    margin-left: 14%;
+    border-radius: 2%;
+}
 /*--------------------------------imagenes--------------------------- */
-.pizzeta{
+.pizza{
     margin: 20px;
     float: right;
     width: 270px;
+    margin-bottom: 9px;
+    margin-right: 30px;
+}
+.pizza2{
+    margin: 20px;
+    float: right;
+    width: 190px;
     margin-bottom: 9px;
     margin-right: 30px;
 }
@@ -240,6 +278,21 @@
     .pizzeta{
         width: 250px;
     }
+    #card2{
+        width: 120px;
+        margin-right: 35px;
+        margin-top: 20px;
+    }
+    #card2 h2{
+        font-size: 1.2em;
+    }
+    #card2 p{
+        font-size: 0.7em;
+    }
+    #foto{
+        width: 70px;
+        margin-left: 25%;        
+    }
     .footer #logo{
         width: 80px;
     }
@@ -296,6 +349,21 @@
         
     .card #firma{
         font-size: 1.2em;
+    }
+    #card2{
+        width: 120px;
+        margin-right: 35px;
+        margin-top: 20px;
+    }
+    #card2 h2{
+        font-size: 1.2em;
+    }
+    #card2 p{
+        font-size: 0.7em;
+    }
+    #foto{
+        width: 70px;
+        margin-left: 25%;        
     }
     .footer #logo{
         width: 60px;

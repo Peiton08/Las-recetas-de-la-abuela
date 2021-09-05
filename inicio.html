@@ -38,14 +38,32 @@
     </nav>
     <section class="card">
         <a href="pizzetas-con-espinaca-y-quso-de-cabra.html">
-            <h5><b>03/8/2021</b></h5>
+            <h5><b>04/09/2021</b></h5>
             <h2><b>Pizzeta de espinaca y queso de cabra</b></h2>
-            <img src="imagenes/pizzatas-fritas/pizzeta-frita-con-espinaca-y-queso-de-cabra.JPG" alt="pizzeta-frita-con-espinaca-y-queso-de-cabra" class="pizzeta">
-            <p>Espinacas y queso de cabra, la combinacion perfecta con una basa bien dorada
-                aprende como hacer estas pizzetas fritas.
+            <img src="imagenes/pizzatas-fritas/pizzeta-frita-con-espinaca-y-queso-de-cabra.JPG" alt="pizzeta-frita-con-espinaca-y-queso-de-cabra" class="pizza">
+            <p>Espinacas y queso de cabra, la combinacion perfecta con una base bien dorada, aprende como hacer estas pizzetas fritas.
             </p>
         </a>
     </section>
+    <section class="card">
+        <a href="pizza-de-4-sabores.html">
+            <h5><b>04/09/2021</b></h5>
+            <h2><b>Pizza de 4 sabores</b></h2>
+            <img src="imagenes/de-carne/pizza-de-4-sabores.JPG" alt="pizza-de-4-sabores" class="pizza2">
+            <p> 4 sabores que encantarán a todos, 4 sabores que debes probar, entra y descúbrelos.
+            </p>
+        </a>
+    </section>
+    <section class="card">
+        <a href="pizza-hawaiiana.html">
+            <h5><b>04/09/2021</b></h5>
+            <h2><b>Pizza hawaiiana</b></h2>
+            <img src="imagenes/vegetarianas/pizza-hawaiiana.JPG" alt="pizza-hawaiiana" class="pizza">
+            <p>La piña y el jamón son tus pases para viajar a las islas hawaiianas, la duración del vuelo una mordida. Descubre como viajar a un paraiso tropical con esta receta.
+            </p>
+        </a>
+    </section>
+
     <footer class="footer">
         <img src="imagenes/logos/logo.png" alt="logo" id="logo">
         <h2>Pizzas de la mama</h2>
@@ -53,5 +71,19 @@
         <img src="imagenes/logos/por-daniela-peil-alcaraz.png" alt="logo2" id="logo2">
         <p>Contactanos: pizzasdelamama@gmail.com</p>
     </footer>
+    <span id="temp"></span>
+<script>
+    url = "https://api.openweathermap.org/data/2.5/weather?q=navojoa&appid=7bc099f460d8918ef2a7ba212cdbef36"
+
+    fetch(url).then(function(response) {
+        // AQUI ESTABLECEMOS LO QUE PASA CUANDO LA CONEXION ES CORRECTA
+        return response.json();
+    }).then(function(main) {
+        var getP = document.getElementById("temp");
+        // AQUI PRETENDEMOS IMPIRMIR EN LA PAGIN PERO NOS MARCA INDEFINIDO :(
+        // getP.innerHTML = main.temp; (ESTA LINEA ESTA COMO COMENTARIO PARA QUE NO AFECTE LA ESTETICA DE LA PAGINA, PERO LA API SE SIGUE VIENDO EN CONSOLA)
+        console.log(main)
+    })
+</script>
 </body>
 </html>
